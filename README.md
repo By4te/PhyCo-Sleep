@@ -1,6 +1,6 @@
-# PhyCo: Multi-View Evidential Fusion Classification
+# PhyCo-Sleep (Demo)
 
-A multi-view classification framework based on evidence theory (Dirichlet distribution). Each view is processed by an evidence collector that outputs a non-negative evidence vector. View-wise "directional conflict" is then computed to derive conflict-aware weights, and the weighted evidence is fused into a final evidence vector for classification.
+We present the training and evaluation code of PhyCo-Sleep on multi-view datasets. More code will be made publicly available upon paper acceptance.
 
 ## File Structure
 
@@ -13,12 +13,9 @@ A multi-view classification framework based on evidence theory (Dirichlet distri
 
 ## Dependencies
 
-- Python 3.x
+- Python 3.8
 - numpy
 - scipy
 - scikit-learn
 - torch
 - mat73 (only needed for loading `YoutubeFace_sel` and `AWA`)
-
-```bash
-pip install numpy scipy scikit-learn torch mat73
