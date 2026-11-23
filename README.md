@@ -19,9 +19,14 @@ We present the training and evaluation code of PhyCo-Sleep on multi-view dataset
 - scipy
 - scikit-learn
 - torch
-- mat73 (only needed for loading `YoutubeFace_sel` and `AWA`)
+- mat73 (only needed for loading `AWA`)
 
-## Acknowledgements
+## Data
+
 The experiments in this work are conducted on publicly available multi-view datasets, including Caltech, Leaves, LandUse, Scene, CCV, Fashion, NUS-OBJ, and AWA. These datasets cover a variety of domains (object images, plant leaf images, land-use data, scene images, web images, fashion images, object images, and animal images) and provide multiple heterogeneous feature views per sample, which are well suited for evaluating multi-view classification methods.
 
-We thank the authors and maintainers of these datasets for making their data publicly available. The datasets used in this work can be accessed at [multi-view datasets](https://drive.google.com/drive/folders/1U3aVU7YZDi-l7O34tos_mQig16JjnYmL).
+The datasets used in this work can be accessed at [multi-view datasets](https://drive.google.com/drive/folders/1U3aVU7YZDi-l7O34tos_mQig16JjnYmL).
+
+## Acknowledgements
+
+We thank the authors of the [TMCEK_ICML2025](https://github.com/jie019/TMCEK_ICML2025) repository for their publicly released code, which inspired and facilitated this work.
