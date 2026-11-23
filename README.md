@@ -6,10 +6,10 @@ We present the training and evaluation code of PhyCo-Sleep on multi-view dataset
 
 | File | Purpose |
 | --- | --- |
-| `dataset.py` | Multi-view dataset wrapper `MultiViewDataset` and loaders for each dataset |
-| `PhyCo_Sleep.py` | Core model: `compute_directional_conflict`, `PhyCo`, `EvidenceCollector` |
-| `loss_function.py` | Loss function `get_loss` (evidential fusion training loss) |
-| `import numpy as np.py` | Main training/evaluation script (`normal`) |
+| `datasets.py` | Multi-view dataset wrapper `MultiViewDataset` and loaders for each dataset |
+| `model.py` | Core model: `compute_directional_conflict`, `PhyCo`, `EvidenceCollector` |
+| `loss function.py` | Loss function `get_loss` (evidential fusion training loss) |
+| `main.py` | Main training/evaluation script (`normal`) |
 
 ## Dependencies
 
